@@ -8,3 +8,211 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+/* styles for the whole page */
+
+html {
+    font-size: 20px;
+}
+
+body {
+    background-color: #540B51;
+}
+
+@media only screen and (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
+
+    .nav-buttons {
+        display: flex;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    nav img {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sign-ups {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sign-ups button {
+        height: 3rem;
+    }
+
+    .sign-ups button img {
+        height: 3rem;
+    }
+
+    .company-logos {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .company-logos img {
+        width: 20%;
+        height: auto;
+        padding: 1rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: baseline;
+        flex-wrap: wrap;
+    }
+
+    .section-teams {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sales-buttons {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-digital-hq {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+
+    
+}
+
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+
+    
+}
+
+@media (min-width: 1441px) {
+    
+}
+
+.nav-buttons button {
+    margin: .25rem;
+    background-color: #540B51;
+    border: none;
+}
+
+.nav-buttons img {
+
+}
+
+
+header, .section-digital-hq {
+    color: white;
+}
+
+main {
+    background-color: #F3EAE2;
+}
+
+header h1, header p, .section-companies p, .section-teams h3, .section-teams p, .section-digital-hq h3 {
+    text-align: center;
+    padding: 1rem;
+}
+
+.company-logos {
+    padding: 1rem;
+}
+
+.company-logos img {
+   /*  width: 20%;
+    height: auto;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+    flex-wrap: wrap; */
+}
+
+
+.slack-screenshot img, .section-channels img, .image-flexible img, .section-platform img {
+    width: 100vw;
+}
+
+.section-teams {
+    background-color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+.section-digital-hq {
+    background-color: #540B51;
+}
+
+.team-together, .choose-work, .tools, .section-teams, .sales-buttons, .section-digital-hq {
+    padding: 4rem 2rem;
+}
+
+footer {
+    background: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+header button, .section-companies p, .sales-buttons button, .section-digital-hq button {
+    text-transform: uppercase;
+}
+
+.section-teams span {
+    font-size: 3rem;
+    color: #540B51;
+}
+
+.sales-buttons button, .section-digital-hq button {
+    padding: 0.5rem;
+    margin: 0.25rem;
+    width: 100%;
+}
+
+footer img {
+    width: 10%;
+    height: auto;
+    padding: 1rem;
+}
+
+.slack-info {
+    display: flex;
+}
+
+.slack-info ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.slack-info li, .footer-details li {
+    padding: 1rem;
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bold {
+    font-weight: bold;
+}
